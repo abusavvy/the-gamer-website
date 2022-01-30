@@ -1,13 +1,14 @@
-@media screen and (max-width: 1024px) {
-  nav .logo {
-    margin-left: 0;
-  }
-
-  .text-content {
-    padding: 36px;
+@media screen and (max-width: 480px) {
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
   }
 }
+
 @media screen and (max-width: 768px) {
+  .header-slider {
+    background-image: url(../img/mobile-bg.jpg);
+  }
+
   nav .logo {
     width: auto;
     justify-content: center;
@@ -49,5 +50,15 @@
   }
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav .logo {
+    margin-left: 0;
+  }
+
+  .text-content {
+    padding: 36px;
   }
 }
