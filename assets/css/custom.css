@@ -109,9 +109,10 @@ nav .icon-burger .line {
   );
 }
 
-/* .home-slider:after {
+/* .header-slider:after {
   content: "";
   background: url(../img/curve-bg.png);
+  background-repeat: no-repeat;
   position: absolute;
   left: 0;
   width: 100%;
