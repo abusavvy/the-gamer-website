@@ -101,6 +101,57 @@ nav .icon-burger .line {
   padding: 250px 0 100px 0;
 }
 
+#section1 {
+  position: relative;
+  background-image: url(../img/Left-Image.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+#section2 {
+  position: relative;
+  background-image: url(../img/game.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+#section3 {
+  position: relative;
+  background-image: url(../img/game5.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.pink-text {
+  color: rgb(234 50 102);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 5px rgb(27, 6, 10);
+}
+
+.pt-50
+
+/* #section2 h2,
+h6,
+p {
+  color: rgb(255, 255, 255);
+} */
+
 /* .overlay {
   background: linear-gradient(
     90deg,
@@ -166,14 +217,6 @@ nav .icon-burger .line {
   text-decoration: none;
 }
 
-.display {
-  padding: 50px 0;
-}
-
-.display2 {
-  padding: 50px 0 10px 0;
-}
-
 .bg-pink {
   background-color: rgb(255, 241, 245);
 }
@@ -202,7 +245,7 @@ nav .icon-burger .line {
 
 .text-content h2::before {
   content: "";
-  background: #ea3266;
+  background-color: rgb(234, 50, 102);
   border-radius: 10px;
   position: absolute;
   bottom: -20px;
