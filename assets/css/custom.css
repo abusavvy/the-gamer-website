@@ -121,6 +121,15 @@ nav .icon-burger .line {
 
 #section3 {
   position: relative;
+  background-image: url(../img/game4.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#section4 {
+  position: relative;
   background-image: url(../img/game5.jpg);
   background-color: black;
   background-size: cover;
@@ -144,7 +153,10 @@ nav .icon-burger .line {
   text-shadow: 1px 1px 5px rgb(27, 6, 10);
 }
 
-.pt-50
+.btn-wrap {
+  display: flex;
+  gap: 30px;
+}
 
 /* #section2 h2,
 h6,
@@ -190,7 +202,8 @@ p {
 }
 
 .home-btn .btn,
-.text-content .btn {
+.text-content .btn,
+.sub-btn .btn {
   border-width: 0;
   cursor: pointer;
   display: inline-flex;
@@ -208,12 +221,14 @@ p {
 }
 
 .home-btn .btn:hover,
-.text-content .btn:hover {
+.text-content .btn:hover,
+.sub-btn .btn:hover {
   background-color: #161525;
 }
 
 .home-btn a,
-.text-content a {
+.text-content a,
+.sub-btn a {
   text-decoration: none;
 }
 
@@ -277,4 +292,13 @@ p {
   padding: 30px 0;
   color: #fff;
   background-color: rgb(22, 4, 56);
+}
+
+.footer-top {
+  background: linear-gradient(
+    187deg,
+    rgba(248, 214, 237, 0.79) 0%,
+    #f8f8c8 47%,
+    #bfd0fa 100%
+  );
 }
