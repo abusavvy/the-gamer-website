@@ -66,7 +66,7 @@ nav .links li:last-child {
 nav .links a {
   display: block;
   font-weight: bold;
-  color: rgb(234 50 102);
+  color: rgb(178 50 129);
   text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ nav .icon-burger {
 nav .icon-burger .line {
   width: 30px;
   height: 5px;
-  background-color: rgb(234 50 102);
+  background-color: rgb(178 50 129);
   margin: 5px;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
@@ -102,39 +102,19 @@ nav .icon-burger .line {
 }
 
 #section1 {
-  position: relative;
-  background-image: url(../img/Left-Image.jpg);
-  background-color: black;
-  background-size: cover;
-  background-position: top right;
-  background-repeat: no-repeat;
+  background-color: rgb(14 2 16);
 }
 
 #section2 {
-  position: relative;
-  background-image: url(../img/game.jpg);
-  background-color: black;
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-color: rgb(3, 6, 44);
 }
 
 #section3 {
-  position: relative;
-  background-image: url(../img/game4.jpg);
-  background-color: black;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
 }
 
 #section4 {
-  position: relative;
-  background-image: url(../img/game5.jpg);
-  background-color: black;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: rgb(21 21 21);
 }
 
 .white-text {
@@ -186,7 +166,7 @@ p {
 
 .header-content h2 {
   font-size: 1.875rem;
-  color: rgb(234, 50, 102);
+  color: rgb(178 50 129);
   margin-bottom: 1.5625rem;
 }
 
@@ -216,7 +196,7 @@ p {
   border-radius: 1.875rem;
   padding: 12px 30px;
   color: white;
-  background-color: rgb(234, 50, 102);
+  background-color: rgb(178 50 129);
   transition: background-color 1s linear;
 }
 
@@ -252,7 +232,7 @@ p {
 }
 
 .text-content h2 {
-  font-size: 3.75rem;
+  font-size: 3rem;
   line-height: 1;
   margin-bottom: 2.1875rem;
   position: relative;
@@ -260,7 +240,7 @@ p {
 
 .text-content h2::before {
   content: "";
-  background-color: rgb(234, 50, 102);
+  background-color: rgb(178 50 129);
   border-radius: 10px;
   position: absolute;
   bottom: -20px;
@@ -271,8 +251,7 @@ p {
 }
 
 .text-content p {
-  font-size: 1.125rem;
-  margin: 0 0 35px;
+  font-size: 1rem;
 }
 
 .img-expand {
@@ -293,12 +272,17 @@ p {
   color: #fff;
   background-color: rgb(22, 4, 56);
 }
+.footer-wrap h4 {
+  color: #ffffff;
+  font-weight: normal;
+}
 
-.footer-top {
-  background: linear-gradient(
-    187deg,
-    rgba(248, 214, 237, 0.79) 0%,
-    #f8f8c8 47%,
-    #bfd0fa 100%
-  );
+.footer-wrap h4 a {
+  color: #f5e610;
+  text-decoration: none;
+}
+
+.ex-link {
+  width: 20px;
+  margin-left: 10px;
 }
